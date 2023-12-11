@@ -1,3 +1,5 @@
+#include <FastLED.h>
+
 // Fire2012WithPaletteCycle
 // Version 0.12 Revision 3
 
@@ -18,7 +20,7 @@
 
 #include <FastLED.h>
 
-#define LED_PIN     6          // the pin which attaches to the neopixel data pin
+#define LED_PIN     PB0          // the pin which attaches to the neopixel data pin
 #define COLOR_ORDER GRB       // sets the color order in which the LEDs are designed for
 #define CHIPSET     WS2812B  // the chipset that the neopixels use
 #define NUM_LEDS    8       // how many leds are being adderessed
